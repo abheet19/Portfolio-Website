@@ -2,10 +2,10 @@ const express = require('express');
 
 const app = express();
 
-var port= 3000;
+var port= process.env.PORT || 80;
 
 app.use('/',express.static( './' + '/public'));
 
 app.listen(port,()=>{
-    console.log("listening on 3000");
+    console.log(`listening on ${port}`);
 });
