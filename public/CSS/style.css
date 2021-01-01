@@ -116,7 +116,7 @@
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand{
-  border: 1px solid var(--border-color);
+  
   text-align: center;
   padding: 2.1rem 0.3rem;
   
@@ -187,6 +187,14 @@
 padding-right: 50px;
 }
 
+#node {
+  padding-top: 25px;
+}
+
+#mongo {
+  padding-top: 25px;
+  
+}
 /* End Brand Area */ 
 
 /* Services Area */ 
@@ -247,6 +255,11 @@ padding-right: 50px;
 .site-main .project-area .grid .our-project > img{
   padding-left: 100px;
 }
+#text{
+  padding-top: 150px;
+  
+}
+
 
 /* End Project Area */ 
 
